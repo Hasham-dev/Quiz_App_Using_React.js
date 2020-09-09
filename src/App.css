@@ -1,3 +1,56 @@
 .App{
   text-align: center;
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body::before{
+  content: "";
+  /* background: url("https://source.unsplash.com/collection/190728/1600x900") no-repeat center center/cover ; */
+  background: url("https://source.unsplash.com/1600x900/?quiz,quiz") no-repeat center center/cover ;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  opacity: 0.4;
+  overflow-x: hidden;
+  
+}
+.container{
+margin-top: 60px;
+}
+.Paper{
+  padding: 40px;
+  background-color: lightcyan !important;
+}
+.Button{
+  margin-top: 30px !important;
+  color: black !important;
+  outline-color: black !important;
+  border-color: black !important;
+  width: 80% !important; 
+}
+.lable{
+  background-color:rgba(107, 204, 199, 0.822) !important;
+  width: 80% !important;
+  margin: auto;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 550;
+  border-radius: 20px;
+}
+.lable:hover{
+  background-color: rgba(28, 236, 191, 0.822) !important;
+}
+.result{
+  width: 90%;
+  margin: auto;
+  text-align: center !important;
+  margin-top: 50px !important;
+}
